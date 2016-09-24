@@ -1,7 +1,3 @@
-> :construction: Oxford.Speech.JS
-The port of MS Oxford.Speech.JS to Dotnet Core x-platfrom
-[WIP]
-
 # Microsoft Bing Speech API: Javascript Speech-to-Text Sample
 This repo contains a Javascript client library and samples for webpages using Speech-to-Text in the Microsoft Bing Speech API, an offering within [Microsoft Cognitive Services](https://www.microsoft.com/cognitive-services), formerly known as Project Oxford.
 * [Learn about the Bing Speech API](https://www.microsoft.com/cognitive-services/en-us/speech-api)

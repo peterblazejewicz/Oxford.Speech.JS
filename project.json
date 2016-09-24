@@ -42,15 +42,14 @@
 
   "publishOptions": {
     "include": [
-      "docs/",
-      "index.html",
-      "speech.*.js",
-      "speech.*.min.js",
-      "web.config",
-      "whatstheweatherlike.wav"
+      "**/*"
     ],
     "exclude": [
-      "**/*"
+      "**/*.cs",
+      "bin/",
+      "obj/",
+      ".editorconfig",
+      ".gitignore"
     ]
   },
 

@@ -16,22 +16,22 @@ The Oxford.Speech.JS sample demonstrates how to use the Microsoft Bing Speech AP
 ### Build the Sample
  1. First, you must obtain a Bing Speech API subscription key by [following the instructions on our webiste](<https://www.microsoft.com/cognitive-services/en-us/sign-up>).
 
- 2. Start Visual Studio and choose the menu "File", "Open", "Project/Solution" the workspace file Speech \> Speech.JS \> Oxford.Speech.JS.sln.
+ 2. Start Visual Studio Code and choose project directory to create new project
  
- 3. In Visual Studio , select menu "Build\> Build Solution" to build the sample.
- 
- 4. Choose the target browser you would like to use.
- 
-  <img src="SampleScreenshots/SelectEmulator.png"/>
+ ![SampleScreenshots/SelectEmulator.jpg](SampleScreenshots/SelectEmulator.jpg)
+ 3. From the commandline run:
 
- 5. "Debug" to launch the sample app.
+```
+dotnet restore  
+dotnet run
+```
 
 ### Running the Sample
- 1. In the web application, enter your Bing Speech subscription key under "Oxford Key".
+ 1. In the web application, enter your Bing Speech subscription key under "Subscription".
 
  2. To Start recognition, press the Start button.
 
-  <img src="SampleScreenshots/SampleRunning1.png"/>
+  ![SampleScreenshots/SampleRunning1.jpg](SampleScreenshots/SampleRunning1.jpg)
 
 
 ## Contributing

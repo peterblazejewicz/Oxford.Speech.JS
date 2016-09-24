@@ -1,0 +1,6 @@
+{
+  "applicationName": "Oxford.Speech.JS",
+  "environment": "Development",
+  "server.urls": "http://+:64116",
+  "webroot": "static"
+}
